@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 64188994}
   - component: {fileID: 64188993}
   - component: {fileID: 64188996}
+  - component: {fileID: 64188997}
   m_Layer: 0
   m_Name: Asteroid 1
   m_TagString: Asteroid
@@ -238,6 +239,19 @@ MonoBehaviour:
   APIKey: frosty-moon-9094
   Entries: 4682f13f-9cd7-4983-88dd-59938e5b1d2c
   Tags: 
+--- !u!114 &64188997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64188992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9645fd61847d4a80719ceee82940b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpriteShader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &233300948
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,6 +264,7 @@ GameObject:
   - component: {fileID: 233300950}
   - component: {fileID: 233300949}
   - component: {fileID: 233300952}
+  - component: {fileID: 233300953}
   m_Layer: 0
   m_Name: Asteroid 3
   m_TagString: Asteroid
@@ -353,6 +368,19 @@ MonoBehaviour:
   APIKey: frosty-moon-9094
   Entries: 292f52a2-dff2-4b69-b93d-4421240257e1
   Tags: 
+--- !u!114 &233300953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233300948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9645fd61847d4a80719ceee82940b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpriteShader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &274445378
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +472,7 @@ GameObject:
   - component: {fileID: 318417658}
   - component: {fileID: 318417657}
   - component: {fileID: 318417660}
+  - component: {fileID: 318417661}
   m_Layer: 0
   m_Name: Asteroid 2
   m_TagString: Asteroid
@@ -547,6 +576,19 @@ MonoBehaviour:
   APIKey: frosty-moon-9094
   Entries: ac6d21bd-2ea5-4b39-9477-cc56ce21cc22
   Tags: 
+--- !u!114 &318417661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318417656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9645fd61847d4a80719ceee82940b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpriteShader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &472449334
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +663,7 @@ MonoBehaviour:
   rotateAmount: 4
   levelText: {fileID: 274445378}
   playerObject: {fileID: 472449334}
+  defaultSpriteShader: {fileID: 0}
 --- !u!96 &472449338
 TrailRenderer:
   serializedVersion: 2
@@ -888,6 +931,7 @@ GameObject:
   - component: {fileID: 1132556694}
   - component: {fileID: 1132556693}
   - component: {fileID: 1132556696}
+  - component: {fileID: 1132556697}
   m_Layer: 0
   m_Name: Planet 3
   m_TagString: Planet
@@ -991,6 +1035,19 @@ MonoBehaviour:
   APIKey: frosty-moon-9094
   Entries: d9c099dd-88b9-49da-bfc8-4231bcd3c25a
   Tags: 
+--- !u!114 &1132556697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132556692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9645fd61847d4a80719ceee82940b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpriteShader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1349393112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,9 +1157,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1407455970}
+  - component: {fileID: 1407455972}
   - component: {fileID: 1407455969}
   - component: {fileID: 1407455968}
   - component: {fileID: 1407455971}
+  - component: {fileID: 1407455973}
   m_Layer: 0
   m_Name: Planet 1
   m_TagString: Planet
@@ -1206,6 +1265,32 @@ MonoBehaviour:
   APIKey: frosty-moon-9094
   Entries: 79e2318b-191d-4703-9478-e98426c60b97
   Tags: 
+--- !u!114 &1407455972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407455967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9645fd61847d4a80719ceee82940b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpriteShader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!114 &1407455973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407455967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9645fd61847d4a80719ceee82940b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpriteShader: {fileID: 0}
 --- !u!1 &1603123888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1303,7 @@ GameObject:
   - component: {fileID: 1603123890}
   - component: {fileID: 1603123889}
   - component: {fileID: 1603123892}
+  - component: {fileID: 1603123893}
   m_Layer: 0
   m_Name: Planet 2
   m_TagString: Planet
@@ -1321,6 +1407,19 @@ MonoBehaviour:
   APIKey: frosty-moon-9094
   Entries: aaaff14b-f70c-42e9-a8b6-966e36beb815
   Tags: 
+--- !u!114 &1603123893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603123888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9645fd61847d4a80719ceee82940b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpriteShader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1616709720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,35 +1577,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 2.07, z: 0}
---- !u!1 &2010790928
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2010790929}
-  m_Layer: 0
-  m_Name: Background
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2010790929
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2010790928}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.9268432, y: 2.0305734, z: 1.5629082}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 2.07, z: 0}

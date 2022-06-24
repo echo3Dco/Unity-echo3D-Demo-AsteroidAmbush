@@ -15,6 +15,10 @@ public class CustomBehaviour : MonoBehaviour
     [HideInInspector]
     public Entry entry;
 
+    // Add field to change Shader to remove Sprite backgrounds (Sprites-Default)
+    public Shader defaultSpriteShader;
+
+
     /// <summary>
     /// EXAMPLE BEHAVIOUR
     /// Queries the database and names the object based on the result.
@@ -33,6 +37,24 @@ public class CustomBehaviour : MonoBehaviour
         {
             // Set name
             this.gameObject.name = value;
+        }
+
+        Invoke("ChangeShader", 15.0f);
+
+    }
+
+    void ChangeShader()
+    {
+        // Changes defaultSpriteShader from Standard shader to the one chosen in Inspector
+        MeshRenderer myRenderer = GetComponentInChildren<MeshRenderer>();
+        if (myRenderer)
+        {
+            myRenderer.material.shader = defaultSpriteShader;
+            Debug.Log(defaultSpriteShader == null);
+        }
+        else
+        {
+            Debug.Log("No mesh renderer detected");
         }
     }
 

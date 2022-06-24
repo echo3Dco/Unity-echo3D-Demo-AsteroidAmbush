@@ -13,7 +13,10 @@ public class Player : MonoBehaviour
     int score;
     public GameObject levelText;
     public GameObject playerObject;
-    
+
+    // Add field to change Shader to remove Sprite backgrounds (Sprites-Default)
+    public Shader defaultSpriteShader;
+
     private void Awake()
     {
         // Get players rigidbody
@@ -30,6 +33,18 @@ public class Player : MonoBehaviour
         // Makes Player active 
         playerObject.SetActive(true);
         print("Invoking...");
+
+        // Changes defaultSpriteShader from Standard shader to the one chosen in Inspector
+        MeshRenderer myRenderer = GetComponentInChildren<MeshRenderer>();
+        if (myRenderer)
+        {
+            myRenderer.material.shader = defaultSpriteShader;
+            Debug.Log(defaultSpriteShader == null);
+        }
+        else
+        {
+            Debug.Log("No mesh renderer detected");
+        }
     }
 
     void Update()
