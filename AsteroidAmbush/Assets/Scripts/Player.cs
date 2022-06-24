@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Controls Player object, counter, UI and level reset
+// Controls Player object, counter, UI, movement and level reset
 public class Player : MonoBehaviour
 {
     Rigidbody2D playerRB;
@@ -19,19 +19,22 @@ public class Player : MonoBehaviour
         // Get players rigidbody
         playerRB = GetComponent<Rigidbody2D>();
 
-        // Turn off player in Hierarchy to allow echo3D assets to load, delay for 15 seconds
+        // Turn off player in Hierarchy to allow echo3D assets to load
         playerObject.SetActive(false);
+        // Invoke ReadyPlayer method after 15 seconds
         Invoke("ReadyPlayer", 15.0f);
     }
 
     void ReadyPlayer()
     {
+        // Makes Player active 
         playerObject.SetActive(true);
         print("Invoking...");
     }
 
     void Update()
     {
+        // On left mouse click, camera follows mouse click and each click rotates and changes rotation of Player (rocket)
         if (Input.GetMouseButton(0))
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -51,6 +54,7 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Controls Player movement
         playerRB.velocity = transform.up * moveSpeed;
     }
 
