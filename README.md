@@ -20,12 +20,12 @@ Don't have an echo3D API key? Make sure to register for FREE at [echo3D](https:/
 * In the Hierarchy, make sure to the boxes are unchecked for the Sprite Renderer for Planet 1–3 and Asteroid 1–3.
 * Press Play in Unity to see where the 3 assets show up in the scene so you can modify the [metadata](https://docs.echo3d.co/unity/transforming-content) in the console.
 * Adjust the [metadata](https://docs.echo3d.co/unity/transforming-content). These may work for you: <br>
-Asteroid 1: scale: .02, yAngle: 180, xAngle: 90, x: -1.7, y: 3.6 <br>
-Asteroid 2: scale: .02, yAngle: 180, xAngle: 90, x: 2, y: 2 <br>
-Asteroid 3: scale: .02, yAngle: 180, xAngle: 90, x: .9, y: -1.2 <br>
-Planet 1: scale: .02, yAngle: 180, xAngle: 90, y:3  <br>
-Planet 2: scale: .02, yAngle: 180, xAngle: 90, y: -3.5, x: 1.5 <br>
-Planet 3: scale: .02, yAngle: 180, xAngle: 90, y: -3.5, x: -1.5 <br>
+Asteroid 1: scale: .01, yAngle: 180, xAngle: 90, x: -1.7, y: 3.6 <br>
+Asteroid 2: scale: .01, yAngle: 180, xAngle: 90, x: 2, y: 2 <br>
+Asteroid 3: scale: .01, yAngle: 180, xAngle: 90, x: .9, y: -1.2 <br>
+Planet 1: scale: .01, yAngle: 180, xAngle: 90, y:3  <br>
+Planet 2: scale: .01, yAngle: 180, xAngle: 90, y: -3.5, x: 1.5 <br>
+Planet 3: scale: .01, yAngle: 180, xAngle: 90, y: -3.5, x: -1.5 <br>
 
 ## Run
 Press Play in Unity and click in the Game window to change the rocket's direction. Hit the 3 asteroids to save the galaxy! If you hit the planets, the game will restart.
