@@ -2,11 +2,13 @@
 Save the galaxy! Hit the 3 asteroids to save the galaxy! If you hit the planets, the game will restart. Control rocket with your mouse click.
 
 ## Setup
-* Don't have an echo3D API key? Make sure to register for FREE at [echo3D](https://console.echo3D.co/#/auth/register).
+* Built with Unity 2020.3.25.  _(Note: The echo3D Unity SDK is supported in 2020.3.25 and higher.)_
+* Register for FREE at [echo3D](https://console.echo3D.co/#/auth/register).
 
-* [Add the Unity SDK](https://medium.com/r/?url=https%3A%2F%2Fdocs.echo3d.co%2Funity%2Finstallation). Troubleshoot [here](https://docs.echo3d.com/unity/troubleshooting#im-getting-a-newtonsoft.json.dll-error-in-unity). _(Note: The echo3D Unity SDK is supported in 2020.3.25 and higher.)_
 
-* Clone this repo.
+* [Add the Unity SDK](https://medium.com/r/?url=https%3A%2F%2Fdocs.echo3d.co%2Funity%2Finstallation). Troubleshoot [here](https://docs.echo3d.com/unity/troubleshooting#im-getting-a-newtonsoft.json.dll-error-in-unity).
+
+* Clone this repo. 
 
 
 ## Steps
@@ -20,7 +22,7 @@ Save the galaxy! Hit the 3 asteroids to save the galaxy! If you hit the planets,
 
 * Open the _SampleScene_ scene in Unity.
 
-* [Set the API key](https://docs.echo3d.co/quickstart/access-the-console) and Entry IDs for those same models. <br>
+* [Set the API key](https://docs.echo3d.co/quickstart/access-the-console) and Entry IDs for those same models in the Inspector. <br>
 ![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/195749269-f7a43477-b67a-49e8-a212-6abdb9c948fd.png)<br>
 ![NEWAPIKeyandEntryID](https://user-images.githubusercontent.com/99516371/205407613-b746840f-8e8a-4ec8-b056-a680395dfab4.png)<br>
 
