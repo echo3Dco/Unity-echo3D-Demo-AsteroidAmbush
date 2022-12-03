@@ -10,13 +10,13 @@ Save the galaxy! Hit the 3 asteroids to save the galaxy! If you hit the planets,
 
 
 ## Steps
-* [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Unity Assets/Models folder:
-      - Planet 1
-      - Planet 2
-      - Planet 3
-      - Astroid 1
-      - Astroid 2
-      - Astroid 3
+* [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Unity Assets/Models folder:  <br>
+      - Planet 1 <br>
+      - Planet 2 <br>
+      - Planet 3 <br>
+      - Astroid 1 <br>
+      - Astroid 2 <br>
+      - Astroid 3 <br>
 
 * Open the _SampleScene_ scene in Unity.
 
